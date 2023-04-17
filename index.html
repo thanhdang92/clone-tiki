@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Tiki Shop</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.3.0-web/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+        crossorigin="anonymous">
+    <script src="./assets/js/slideshow.js" defer></script>
+    <script src="./assets/js/slideshowCollection.js" defer></script>
+    <script src="./assets/js/main.js" defer></script>
+
+   
+</head>
+<body>
+    <div class="apps-tiki">
+        <div class="header-container">
+            <div class="header__top">
+                <div class="header__logo">
+                    <img src="./assets/img/logo-tiki.png" alt="" class="img__logo">
+                </div>
+                <div class="header__search">
+                    <div class="search__icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <input type="text" class="search__input" placeholder="Bạn tìm gì hôm nay?">
+                    <button class="search__btn">Tìm kiếm</button>
+                </div>
+                <ul class="navbar__list">
+                    <li class="navbar__item">
+                        <img src="./assets/img/icon-home.png" alt="" class="icon__item">
+                        <a href="" class="navbar__item-link item__home">
+                            Trang chủ
+                        </a>
+                    </li>
+                    <li class="navbar__item">
+                        <img src="./assets/img/icon-Astra.png" alt="" class="icon__item">
+                        <a href="" class="navbar__item-link">
+                            Astra
+                        </a>
+                    </li>
+                    <li class="navbar__item">
+                        <img src="./assets/img/icon-user.png" alt="" class="icon__item">
+                        <a href="" class="navbar__item-link">
+                            Tài khoản
+                        </a>
+                    </li>
+                    <li class="navbar__item separate">
+                        <a href="" class="navbar__item-link">
+                            <img src="./assets/img/icon-cart.png" alt="" class="icon__item">
+                        </a>
+                    </li>
+                </ul>
+            </div>        
+            <div class="header__bottom">
+                <div class="search__suggestions">
+                    <a href="" class="search__suggestions-link">
+                        trái cây, thịt, trứng, rau, củ, quả, sữa, bơ, phô mai, hải sản, gạo, mì ăn liền, đồ uống, bia, rượu, bánh kẹo ...
+                    </a>
+                </div>
+                <div class="header__bottom-address">
+                    <img src="./assets/img/icon-map.png" style="width: 20px; margin-bottom: 7px;" alt="">
+                    Giao đến: <span style="font-weight: 600;">Q.Sơn Trà,P.An Hải Bắc,Đà Nẵng</span> 
+                </div>
+            </div> 
+        </div>    
+        <div class="banner__shipper">
+            <a href="" class="banner__shipper-link">
+                <img src="./assets/img/icon-freeShip.png" style="width: 90px; margin-right: 10px;" alt="">
+                <span style="font-weight: 600;">mọi đơn từ 149K. </span>Áp dụng cho cả TikiNow 2h
+                <img src="./assets/img/icon->.png" style="width: 8px; margin: 0 0 2px 5px" alt="">
+            </a>
+        </div>
+        <main>
+            <div class="product-container">
+                <div id="category-wrap">
+                    <div class="highlight-container">
+                        <div class="highlight_heading">Nỗi bật</div>
+                        <ul class="highlight__list" id="highlight__list">
+                        </ul>
+                    </div>  
+                    <div class="highlight-container">
+                        <div class="highlight_heading">Danh Mục</div>
+                        <ul class="highlight__list" id="category__list">
+                        </ul>
+                    </div>     
+                </div>
+                <div class="product-wrap">
+                    <div class="slideshow-wrap">
+                        <div id="slideshow">
+                            <div id="group-img">
+                            </div>
+                            <a class="prev-slideshow">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </a>
+                            <a class="next-slideshow">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </a>
+                        </div>
+                        <img class="img-show" src="https://salt.tikicdn.com/cache/w750/ts/tikimsp/14/1d/a0/89c49222ed1c5ee557be6eb8748b75e5.jpg.webp" alt="">
+                    </div>        
+                    <div class="collection-wrap">
+                        
+                        <div class="collection-list-wrap">
+                            <div class="collection-heading">
+                                Bo suu tap noi bat
+                            </div>
+                            <div id="slideshow-collection">
+                                <ul class="collection-list active">
+                                    <li class="collection-item">
+                                        <img src="https://salt.tikicdn.com/ts/brickv2og/99/bf/79/9c211330f3661af8ed9b091bb3472e2c.png" alt="">
+                                    </li>
+                                    <li class="collection-item">
+                                        <img src="https://salt.tikicdn.com/ts/brickv2og/76/5b/b6/ef5ccafca45aa31f7540cd0b804c1b92.png" alt="">
+                                    </li>
+                                    <li class="collection-item">
+                                        <img src="https://salt.tikicdn.com/ts/brickv2og/85/8b/aa/7b2cb68e97fe05647dc84de2318ff2e9.png" alt="">
+                                    </li>
+                                    <li class="collection-item">
+                                        <img src="https://salt.tikicdn.com/ts/brickv2og/6d/d5/fd/751db5ef0e867a1618d1518f590dfdf5.png" alt="">
+                                    </li>
+                                    <li class="collection-item">
+                                        <img src="https://salt.tikicdn.com/ts/brickv2og/31/2e/6b/28f80849896862182ae937403d3148cb.png" alt="">
+                                    </li>
+                                    <li class="collection-item">
+                                        <img src="https://salt.tikicdn.com/ts/brickv2og/f4/7c/3f/9b3c1f1b3f65c1042f25a8c94e9d6704.png" alt="">
+                                    </li>
+                                </ul>
+                                <ul class="collection-list">
+                                    <li class="collection-item">
+                                        <img src="https://salt.tikicdn.com/ts/brickv2og/35/59/cd/83b72a0e8ac382d5b85d9c801cda97fa.png" alt="">
+                                    </li>
+                                    <li class="collection-item">
+                                        <img src="https://salt.tikicdn.com/ts/brickv2og/e3/60/03/a2f466b83db15521a1e9baaf2d6fe967.png" alt="">
+                                    </li>
+                                    <li class="collection-item">
+                                        <img src="https://salt.tikicdn.com/ts/brickv2og/a4/82/cc/05117e4fc92fe9ed7a7a245e50107885.png" alt="">
+                                    </li>
+                                    <li class="collection-item">
+                                        <img src="https://salt.tikicdn.com/ts/brickv2og/e0/cb/17/3b37ff63548ac8ff7104f533c7698ae7.png" alt="">
+                                    </li>
+                                    <li class="collection-item">
+                                        <img src="https://salt.tikicdn.com/ts/brickv2og/0e/de/8b/642a39d3995711daa01d147a0d71513c.png" alt="">
+                                    </li>
+                                    <li class="collection-item">
+                                        <img src="https://salt.tikicdn.com/ts/brickv2og/50/0f/b0/cf618ca6735d6a7c2aabe278ba68d114.png" alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <a class="prev-collection-list">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </a>
+                            <a class="next-collection-list">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </main>    
+    </div>
+    <script>
+        
+    </script>
+</body>
+</html>
