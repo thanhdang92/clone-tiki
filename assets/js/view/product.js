@@ -46,7 +46,7 @@ let getData = () => {
     }
 
 
-    document.querySelector('#_priceAfterDiscount').innerHTML = dataProduct.price * dataProduct.discount - 1;
+    document.querySelector('#_priceAfterDiscount').innerHTML = dataProduct.price - (dataProduct.price * dataProduct.discount) - 1;
     document.querySelector('#_price').innerHTML = dataProduct.price;
     document.querySelector('#_discount').innerHTML = dataProduct.discount * 100;
     document.querySelector('#_color').innerHTML = dataProduct.color.toString().replace(',', ` - `);
